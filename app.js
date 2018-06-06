@@ -19,6 +19,7 @@
 	});
 	var Campground = mongoose.model("Campground" , campgroundSchema);
 
+	/*
 	Campground.create(
 		{
 		 name: "Черни Връх" ,
@@ -30,8 +31,8 @@
 			}else {
 				console.log("Newly created campground");
 				console.log(campground);
-			}
-		}); 
+			} 
+		}); */
 
 		app.get("/" , function(req,res){
 			res.render("landing");
