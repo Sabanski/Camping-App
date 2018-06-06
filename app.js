@@ -9,7 +9,7 @@
 	
 		// mongoose.connect("mongodb://localhost/yelp_camp");
 	// mongodb://<dbuser>:<dbpassword>@ds247330.mlab.com:47330/restblogapp
-	 mongoose.connect("mongodb://test:test123@ds247310.mlab.com:47310/dsportfolio");
+	 mongoose.connect("mongodb+srv://test:test123@restblogapp-hj5u2.mongodb.net/test?retryWrites=true");
 
 	// Schema Setup
 	var campgroundSchema = new mongoose.Schema({
@@ -96,7 +96,7 @@
 		}); */
 		app.listen(process.env.PORT , process.env.IP , function(){
 		console.log("Server is running on port 3000");
-		});
+	});
 
 
 
