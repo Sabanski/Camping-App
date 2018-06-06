@@ -9,7 +9,7 @@
 	
 		// mongoose.connect("mongodb://localhost/yelp_camp");
 	// mongodb://<dbuser>:<dbpassword>@ds247330.mlab.com:47330/restblogapp
-	 mongoose.connect("mongodb://dsabanski:guzolina33@ds247310.mlab.com:47310/dsportfolio");
+	 mongoose.connect("mongodb://test:test123@ds247310.mlab.com:47310/dsportfolio");
 
 	// Schema Setup
 	var campgroundSchema = new mongoose.Schema({
