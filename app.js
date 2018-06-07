@@ -91,6 +91,10 @@
 			
 		});
 
+		var request = require('request');
+		setInterval(function() {
+   	 	request("https://udemyyelpcampapp.herokuapp.com/");
+		}, 1740000); // every 5 minutes (300000)
 
 		 app.listen(process.env.PORT , process.env.IP , function(){
 		console.log("Server is running");
