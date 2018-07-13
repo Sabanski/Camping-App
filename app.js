@@ -48,7 +48,7 @@ var  express 				= require("express"),
 
 		var request = require('request');
 			setInterval(function() {
-		   	 	request("https://udemyyelpcampapp.herokuapp.com/");
+		   	 	request("https://campingsite.herokuapp.com/");
 		}, 1740000); // every 5 minutes (300000)
 	
 		/*app.listen(3000, function(){
