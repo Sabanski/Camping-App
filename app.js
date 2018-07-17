@@ -1,3 +1,4 @@
+require('dotenv').config();
 var  express 				= require("express"),
 		 app 				= express(),
 		 bodyParser 		= require("body-parser"),
@@ -17,7 +18,7 @@ var  express 				= require("express"),
 		indexRoutes			 = require("./routes/index")
 
 		//	seedDB();
-
+		app.locals.moment = require('moment');
 		app.use(bodyParser.urlencoded({extended: true}));
 		app.set("view engine", "ejs");
 		app.use(express.static(__dirname + "/public"));

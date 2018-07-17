@@ -5,13 +5,36 @@
     <div style="width: 30%; margin: 25px auto;">
         <form action="/register" method="post">
             <div class="form-group">
-                <input class="form-control" type="text" name="username" placeholder="username">
+                <label for="name">Username</label>
+                <input class="form-control" type="text" name="username" placeholder="John.Doe">
             </div>
             <div class="form-group">
-                <input class="form-control" type="password" name="password" placeholder="password">
+                <label for="name">Password</label>
+                <input class="form-control" type="password" name="password" placeholder="123@qwerty!">
+            </div>
+             <div class="form-group">
+                <label for="name">First Name</label>
+                <input class="form-control" type="text" name="firstName" placeholder="John">
             </div>
             <div class="form-group">
-                <button class="btn btn-lg btn-primary btn-block">Sign Up!</button>
+                <label for="name">Last Name</label>
+                <input class="form-control" type="text" name="lastName" placeholder="Doe">
+            </div>
+            <div class="form-group">
+                <label for="name">Email</label>
+                <input class="form-control" type="email" name="email" placeholder="qwerty@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="name">Avatar</label>
+                <input class="form-control" type="text" name="avatar" placeholder="url">
+            </div>
+            <br><br><br>
+            <div class="form-group">
+                <label for="name">Admin Code</label>
+                <input class="form-control" type="text" name="adminCode" placeholder="#secret">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-lg btn-primary btn-block">Register!</button>
             </div>
         </form>
         <a href="/campgrounds">Go Back</a>
